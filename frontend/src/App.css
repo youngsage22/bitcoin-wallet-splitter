@@ -1,0 +1,8 @@
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background: linear-gradient(to bottom right, #0f172a, #2d1b69, #0f172a);
+  min-height: 100vh;
+}

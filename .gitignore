@@ -1,33 +1,44 @@
 # Dependencies
 node_modules/
-package-lock.json
-yarn.lock
+/.pnp
+.pnp.js
 
-# Build
-dist/
-build/
-.next/
+# Testing
+/coverage
 
-# Environment
+# Production
+/build
+/dist
+
+# Misc
+.DS_Store
 .env
 .env.local
-.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
 
 # IDE
-.vscode/
 .idea/
+.vscode/
 *.swp
 *.swo
 *~
+
+# OS
+Thumbs.db
 .DS_Store
 
-# Logs
-logs/
-*.log
-npm-debug.log*
-yarn-debug.log*
-
-# Private keys (NEVER commit these!)
-*.key
+# Bitcoin
 *.pem
-private/
+*.key
+private_keys.json
+
+# Docker
+.dockerignore
